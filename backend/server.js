@@ -38,5 +38,5 @@ io.on('connection', (socket) => {
   socket.on('disconnect', () => console.log('Пользователь отключен:', socket.id));
 });
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5002;
 server.listen(PORT, () => console.log(`Сервер запущен на порту ${PORT}`));
